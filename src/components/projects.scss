@@ -1,0 +1,118 @@
+$background-color: rgb(187, 220, 238);
+$title-color: rgb(202, 212, 143);
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10% 10%;
+  padding: 100px 0px 0px;
+  .project-img {
+    height: 140px;
+    width: 220px;
+    padding: 0 0 2em 0;
+  }
+  .project-container {
+    border-radius: 20px;
+    padding: 0 45px;
+    background-color: rgb(254, 249, 249);
+    max-width: 1170px;
+
+    #project-hiden,
+    #mixifyer,
+    #eBudget,
+    #colourFinder {
+      position: relative;
+      font-family: 'Times New Roman', Times, serif;
+      border-bottom: solid 0.5px gray;
+
+      #image-mixifyer,
+      #image-eBudget,
+      #image-colourFinder {
+        float: left;
+        border-radius: 20px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 150px;
+        width: 150px;
+        margin: 45px 45px 45px 0;
+        border-radius: 10px;
+        box-shadow: 5px 5px 3px rgb(206, 205, 205);
+      }
+      #image-mixifyer {
+        background-image: url('../images/Mixifyer.jpg');
+      }
+      #image-eBudget {
+        background-image: url('../images/eBudget.jpg');
+      }
+      #image-colourFinder {
+        background-image: url('../images/ColourFinder.jpg');
+      }
+    }
+
+    #colourFinder {
+      border-bottom: none;
+      padding-bottom: 50px;
+    }
+    .project-details {
+      padding: 45px 0;
+      .project-links a {
+        margin: 0px 10px;
+        font-size: 2em;
+      }
+      .project-description,
+      #project-tools {
+        margin: 10px 0;
+        font-size: 1.3em;
+        letter-spacing: 0.3px;
+        line-height: 1.5;
+        word-spacing: 1px;
+        span {
+          font-weight: bold;
+          font-size: 1.1em;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 660px) {
+  #projects {
+    width: 100%;
+    margin: 5em 0%;
+
+    .project-container {
+      width: 95%;
+      margin: 0 2.5%;
+      padding: 0 0;
+
+      #mixifyer,
+      #eBudget,
+      #colourFinder {
+        margin: 30px;
+        #image-mixifyer,
+        #image-eBudget,
+        #image-colourFinder {
+          margin: 0 20px 0 0;
+          height: 90px;
+          width: 90px;
+        }
+        .project-details {
+          padding: 0 0 35px;
+          .project-links a {
+            margin: 0 8px;
+            font-size: 1.5em;
+          }
+          .project-description,
+          #project-tools {
+            margin-top: 10px;
+
+            span {
+              font-size: 0.9em;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,86 @@
+$title-color: rgb(202, 212, 143);
+$background-color: rgb(247, 240, 240);
+
+#education {
+  padding: 8em 0 0 0;
+
+  .paragraph-title-edu {
+    margin: 0 0 3em 0;
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    width: 100%;
+
+    img {
+      color: red;
+      height: 120px;
+      width: 180px;
+    }
+  }
+
+  .timeline-container {
+    width: 80%;
+
+    .vertical-timeline-element-date {
+      color: white;
+    }
+
+    h3,
+    h4,
+    p {
+      color: #404040;
+    }
+
+    .image-fsa,
+    .image-krsu,
+    .image-knu,
+    .image-keu {
+      width: 100%;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 50px;
+    }
+    .image-fsa {
+      background-image: url('../images/fsa.jpg');
+    }
+    .image-krsu {
+      background-image: url('../images/krsu.jpg');
+    }
+    .image-knu {
+      background-image: url('../images/knu.jpg');
+    }
+    .image-keu {
+      background-image: url('../images/KEU.jpg');
+    }
+
+    .iconImgSBU {
+      border-radius: 50px 50px 10px 10px;
+    }
+  }
+}
+
+@media (max-width: 660px) {
+  #education {
+    .timeline-container {
+      width: 90%;
+      .vertical-timeline-element-date {
+        color: rgb(5, 0, 0);
+        font-weight: 600;
+      }
+      h3,
+      a {
+        font-size: 0.8em;
+      }
+      h4 {
+        font-size: 0.9em;
+      }
+    }
+    .paragraph-title-edu {
+      img {
+        height: 120px;
+        width: 150px;
+      }
+    }
+  }
+}
