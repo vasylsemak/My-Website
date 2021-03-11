@@ -1,63 +1,47 @@
-import React, {useState, useEffect} from 'react'
+import React, { useState, useEffect } from 'react'
 
-const TypeWriter = ({texts, speed, endSpeed, className}) => {
-    
-    const [text, setText] = useState('')
-  
-  useEffect(() => {
-      
+const TypeWriter = ({ texts, speed, endSpeed }) => {
+    const [text, setText ] = useState('')
+
+    useEffect(() => {
         let i = 0;
         let isDeleting  = false;
         let txt = '';
         let t;
-      
+
         const  rotateText = () => {
-// 
            let string = texts[i]
            let newSpeed = speed
 
-            if(isDeleting){
-              
+            if(isDeleting) {
                 txt = string.slice(0, txt.length - 1)
-                setText(txt) 
- 
-            }else{
-                
+                setText(txt)
+            } else {
                 txt = string.slice(0, txt.length + 1)
-                setText(txt) 
-  
+                setText(txt)
             }
 
-            if(!isDeleting && txt === texts[i]){
-
+            if(!isDeleting && txt === texts[i]) {
                 newSpeed = endSpeed
                 isDeleting = true
-                
-            }else if(isDeleting && txt === ''){
-              
+            } else if(isDeleting && txt === '') {
                 isDeleting = false
-                newSpeed = speed*3
+                newSpeed = speed * 3
                 i++
+
                 if(i === texts.length) i = 0
-
-            }else if(isDeleting && txt === texts[i]){
-
+            } else if(isDeleting && txt === texts[i]) {
                 newSpeed = speed / 2
             }
 
-          t =  setTimeout(() => rotateText(), newSpeed)
-          return () => clearTimeout(t)
+            t = setTimeout(() => rotateText(), newSpeed)
+            return () => clearTimeout(t)
         }
-        
-        rotateText()
-        
-        return () => clearTimeout(t)
-    }, [texts, speed, endSpeed])
-   
 
-    return(
-            <div className={className}>{text}</div>
-    )
+        rotateText()
+    }, [texts, speed, endSpeed])
+
+    return(<div className='type-writer'>{text}</div>)
 }
 
 export default TypeWriter
