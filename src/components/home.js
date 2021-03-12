@@ -4,7 +4,7 @@ import './home.scss'
 
 
 const Home = () => {
-  const texts = ['Quadrilingual', 'Tennis fan', 'Cook', 'Traveller', 'Nature lover', 'Hiker']
+  const texts = ['Quadrilingual', 'Father', 'Car lover', 'Traveller', 'Nature lover']
   const speed = 50
   const endSpeed = 2000
 

@@ -39,6 +39,7 @@ const TypeWriter = ({ texts, speed, endSpeed }) => {
         }
 
         rotateText()
+        return () => clearTimeout(t)
     }, [texts, speed, endSpeed])
 
     return(<div className='type-writer'>{text}</div>)
