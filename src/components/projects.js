@@ -1,7 +1,6 @@
 import React from "react"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faLink } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { projects } from './data'
 import './projects.scss';
 
@@ -19,9 +18,6 @@ const Projects = () => {
                 <div className="project-links">
                   <a href={el.gitHub} target="_blank" rel="noreferrer">
                     <FontAwesomeIcon icon={faGithub} />
-                  </a>
-                  <a href={el.link} target="_blank" rel="noreferrer">
-                    <FontAwesomeIcon icon={faLink} />
                   </a>
                 </div>
                 <div className="project-description">{el.description}</div>

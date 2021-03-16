@@ -32,9 +32,8 @@ $background-color: rgb(247, 240, 240);
     }
 
     .image-fsa,
-    .image-krsu,
-    .image-knu,
-    .image-keu {
+    .image-kcc,
+    .image-tneu {
       width: 100%;
       height: 100%;
       background-repeat: no-repeat;
@@ -44,14 +43,11 @@ $background-color: rgb(247, 240, 240);
     .image-fsa {
       background-image: url('../images/fsa.jpg');
     }
-    .image-krsu {
-      background-image: url('../images/krsu.jpg');
+    .image-kcc {
+      background-image: url('../images/kcc.jpeg');
     }
-    .image-knu {
-      background-image: url('../images/knu.jpg');
-    }
-    .image-keu {
-      background-image: url('../images/KEU.jpg');
+    .image-tneu {
+      background-image: url('../images/tneu.jpeg');
     }
 
     .iconImgSBU {
