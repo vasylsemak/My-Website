@@ -5,9 +5,9 @@ import './header.scss'
 
 
 export default function Header({className, language, change}) {
-  
+
   const [burger, setBurger] = React.useState(true)
- 
+
   function onClick(idName){
     if(!burger)setBurger(true)
     if(idName !== '') scrollTo(idName)
@@ -23,9 +23,9 @@ export default function Header({className, language, change}) {
     <div  className={tongue}>
         <button type='button' id='top-flag-icon'  onClick={() => changeLanguge('english')}>
           <div>{tongueBttn.en}</div>
-          <img alt='' src={`amer-flag.jpg`}/> 
+          <img alt='' src={`amer-flag.jpg`}/>
         </button>
-      
+
       <button type='button' id='bottom-flag-icon' onClick={() => changeLanguge('russian')}>
         <div>{tongueBttn.ru}</div>
         <img alt='' src={`russ-flag.jpg`} id='ru-flag-icon'/>
@@ -44,21 +44,21 @@ export default function Header({className, language, change}) {
 
             <Burger setBurger={setBurger} burger={burger}/>
 
-            <button onClick={() => onClick('#home')} id='logo' >im</button>
+            <button onClick={() => onClick('#home')} id='logo'>VS</button>
           </div>
           <div id='divider'/>
         </div>
-        <div id={burger ? 'nav-links' : 'nav-links-mobile'}> 
+        <div id={burger ? 'nav-links' : 'nav-links-mobile'}>
 
           {links.map((el, i)=> {
-            
+
             const classname = idNames[i].link === '#' + className ? 'link-offsetTop' : 'nothing'
-            
+
             return <button key={idNames[i].id} type='button' className={classname} onClick={() => onClick(idNames[i].link)}>{el}</button>
-          
+
           })}
-        
-          {languages('tongue')} 
+
+          {languages('tongue')}
 
         </div>
 

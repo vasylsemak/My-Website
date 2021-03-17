@@ -14,21 +14,20 @@ const Hobby = () => {
 
   function toggleBttn(){
     if(!readBttn) scrollTo('#hobby')
-    setReadBttn(!readBttn)    
+    setReadBttn(!readBttn)
   }
 
-  const images = [`gym.jpg`, `centre-court.jpg`,
-  `nitto-final.jpg`, `cooking.jpg`]
+  const images = ['egypt.jpeg', 'colosseum.jpeg', 'niagara_falls.jpeg', 'horse.jpeg', 'pantheon.jpeg', 'grand_canyon.jpeg', 'boat.jpeg', 'fountain.jpeg']
 
-  const imgInfo = state.language === 'english' ? ['LA Fitness, Baltimore', 'Centre Court in Wimbledon, London', 'ATP Nitto-Final in O2, London', `Cooking shepherd's pie home`] : ['LA Fitness, Балтимор', 'Центральный корт в Уимблдоне, Лондон', 'ATP Nitto-Final в O2, Лондон', 'Пастуший пирог']
-  
+  const imgInfo = ['Cairo, Egypt', 'Rome, Italy', 'Niagara Falls, NY', `Alstede Farms, NJ`, 'Rome, Italy', 'Grand Canyon National Park, AZ', 'Poconos, NY']
 
-  const hobbyInfo = state.language === 'english' ? ['Hobbies', hobbies, 'read more...', '...read less'] : ['Xобби', hobbiesRU, 'больше...', '...меньше']
-  
+
+  const hobbyInfo = ['Hobbies', hobbies, 'read more...', '...read less']
+
     return (
       <div id='hobby'>
           <div className='paragraph-title'>
-            <h3>{'<<<  '}</h3> 
+            <h3>{'<<<  '}</h3>
             <h1>  {hobbyInfo[0]}  </h1>
             <h3>{'  >>>'}</h3>
           </div>
@@ -38,13 +37,12 @@ const Hobby = () => {
 
             <div id='hobby-story'>
             {readBttn ? (hobbyInfo[1][0]): hobbyInfo[1].map( el=> el)}
-            
+
               <button type='button' onClick={()=> toggleBttn()}>{readBttn ? hobbyInfo[2] : hobbyInfo[3]}</button>
-            </div>       
-          </div> 
+            </div>
+          </div>
       </div>
     )
   }
-  
+
   export default Hobby
-  

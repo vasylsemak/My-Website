@@ -31,22 +31,22 @@ $logo-shaddow-color: rgb(167, 189, 118);
       #logo {
         background: linear-gradient(
           to left,
-          rgba(255, 255, 255, 0.1) 0%,
+          #57f0b5 0%,
           rgba(101, 122, 59, 0.2) 50%,
-          rgba(14, 0, 2, 0.3) 100%
+          #5eeb65 100%
         );
-        background-color: rgb(43, 81, 84);
+        background-color: #89f8ce;
         text-align: center;
-        font-size: 45px;
+        font-size: 2.5rem;
         font-family: serif;
         width: 65px;
         padding: 0 0px 5px 1px;
         border-radius: 15;
         float: left;
         border-radius: 50%;
-        border: solid 1px rgb(80, 88, 72);
-        box-shadow: 0.5px 0.5px 0.5px rgb(68, 67, 67);
-        color: rgb(187, 187, 122);
+        border: solid 2px rgb(0, 23, 66);
+        box-shadow: 0.5px 0.5px 0.5px rgb(48, 45, 45);
+        color: rgb(0, 23, 66);
         cursor: pointer;
       }
     }

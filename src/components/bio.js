@@ -5,15 +5,15 @@ import RotateImages from './RotateImages'
 import './bio.scss'
 
 const Bio = () => {
-  const [ readBttn, setReadBttn ] = useState(true);
+  const [ readBttn, setReadBttn ] = useState(true)
 
   const toggleBttn = () => {
     if(!readBttn) scrollTo('#bio')
     setReadBttn(!readBttn)
   }
 
-  const images = [`virtual-grad.png`, `hyde-park.jpg`, `ala-archa.png`, `parade.png`, `a-default-site-image.jpg`]
-  const imgInfo = [`Fullstack virtual graduation, South Orange`, `Hyde Park, London`, 'Ala-Archa Mountain, Kyrgyzstan', 'Red Hook, NY']
+  const images = [`a-default-site-image.jpeg`, `sand.jpeg`, `ocean.jpeg`, `oscar.jpeg`, `europe.jpeg`]
+  const imgInfo = [`Bukovel, Ukraine`, `Cape Cod, MA`, 'Whales watching, Cape Cod, NY', 'Soho, NY', `Europe`]
   const bioInfo = ['Biography', myStory, 'read more...', '...read less']
 
   return (
