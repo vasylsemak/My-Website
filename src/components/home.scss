@@ -7,6 +7,15 @@
   }
 }
 
+// #5c5c5c,
+// #09015f,
+// #02001d,
+// rgba(19, 16, 16, 0),
+// #02001d,
+// #09015f,
+// #5c5c5c
+// #C1D3EE,
+
 .home {
   position: relative;
   width: 100%;
@@ -18,13 +27,14 @@
   flex-direction: column;
   align-items: center;
   background-size: cover;
+
   background-image: linear-gradient(
       to right,
-      rgba(250, 252, 252, 0.4),
+      #6b6888,
       rgba(19, 16, 16, 0),
       rgba(19, 16, 16, 0),
       rgba(19, 16, 16, 0),
-      rgba(219, 213, 213, 0.4)
+      #6b6888
     ),
     url('../images/home-page.jpg');
 
@@ -36,8 +46,8 @@
   text-align: center;
   h1 {
     margin: 120px 0 25px 0;
-    font-weight: 100;
     font-weight: bold;
+    font-size: 3rem;
   }
   h6 {
     margin: 20px 0 35px 0;

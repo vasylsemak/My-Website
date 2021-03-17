@@ -11,7 +11,21 @@ $lins-color: white;
 html,
 .layout {
   width: 100%;
-  background-color: rgb(88, 87, 90);
+  background: linear-gradient(
+    #02001d,
+    #02001d,
+    #02001d,
+    #5c5c5c,
+    #c1d3ee,
+    #02001d,
+    #5c5c5c,
+    #c1d3ee,
+    #02001d,
+    #5c5c5c,
+    #c1d3ee,
+    #02001d
+  );
+  // background-color: rgb(88, 87, 90);
 }
 .layout {
   #main {

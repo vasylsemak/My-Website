@@ -1,7 +1,5 @@
 $nav-background-color: rgba(105, 107, 107, 0.97);
 $links-color: rgb(230, 230, 233);
-$logo-color: rgb(28, 76, 92);
-$logo-shaddow-color: rgb(167, 189, 118);
 
 #nav-bar {
   overflow: hidden;
@@ -31,22 +29,21 @@ $logo-shaddow-color: rgb(167, 189, 118);
       #logo {
         background: linear-gradient(
           to left,
-          #57f0b5 0%,
-          rgba(101, 122, 59, 0.2) 50%,
-          #5eeb65 100%
+          #cecece 0%,
+          rgba(163, 195, 233, 0.2) 50%,
+          #666683 100%
         );
-        background-color: #89f8ce;
+        background-color: #fdfdfd;
         text-align: center;
         font-size: 2.5rem;
         font-family: serif;
         width: 65px;
         padding: 0 0px 5px 1px;
-        border-radius: 15;
         float: left;
-        border-radius: 50%;
-        border: solid 2px rgb(0, 23, 66);
+        border-radius: 100%;
+        border: solid 3px #f4d143;
         box-shadow: 0.5px 0.5px 0.5px rgb(48, 45, 45);
-        color: rgb(0, 23, 66);
+        color: #f0ae2c;
         cursor: pointer;
       }
     }
@@ -63,7 +60,7 @@ $logo-shaddow-color: rgb(167, 189, 118);
     button {
       color: $links-color;
       font-family: FreeMono, monospace;
-      font-size: 1.1em;
+      font-size: 1.2em;
       font-weight: 500;
       padding: 1px 4px;
       background: transparent;
