@@ -8,25 +8,25 @@ $lins-color: white;
   outline: none;
 }
 
+// #a7a7a7,
+// rgb(88, 87, 90),
+// rgb(88, 87, 90),
+// rgb(88, 87, 90),
+// #a7a7a7
+
 html,
 .layout {
   width: 100%;
   background: linear-gradient(
+    to right,
+    #6b6888,
     #02001d,
     #02001d,
     #02001d,
-    #5c5c5c,
-    #c1d3ee,
-    #02001d,
-    #5c5c5c,
-    #c1d3ee,
-    #02001d,
-    #5c5c5c,
-    #c1d3ee,
-    #02001d
+    #6b6888
   );
-  // background-color: rgb(88, 87, 90);
 }
+
 .layout {
   #main {
     margin-top: 1%;
@@ -74,11 +74,8 @@ html,
   .scroll-to-top-bttn:hover {
     background-color: rgba(5, 5, 5, 0.3);
     color: rgb(102, 102, 158, 0.7);
-
     cursor: pointer;
   }
-
-  // original styling
 
   img {
     border-style: none;
@@ -90,6 +87,5 @@ html,
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
-    /* margin-bottom: 1.45rem; */
   }
 }

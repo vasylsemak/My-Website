@@ -1,6 +1,5 @@
 $nav-background-color: rgba(9, 10, 6, 0.97);
-$links-color: #6b6888;
-$logo-shaddow-color: rgb(217, 248, 149);
+$links-color: #b6b1e2;
 
 #footer {
   display: flex;
@@ -9,13 +8,13 @@ $logo-shaddow-color: rgb(217, 248, 149);
   justify-content: center;
   position: fixed;
   z-index: 100;
-  height: 60px;
+  height: 55px;
   width: 100%;
   bottom: 0;
   background: linear-gradient(
     to top,
     $nav-background-color 0%,
-    rgb(39, 49, 54) 100%
+    rgb(73, 90, 99) 100%
   );
 
   a {
@@ -26,7 +25,9 @@ $logo-shaddow-color: rgb(217, 248, 149);
       width: 1.5em;
     }
     .svg-inline--fa:hover {
-      color: rgb(102, 102, 158, 0.7);
+      color: rgba(119, 119, 182, 0.7);
+      height: 2em;
+      width: 2em;
     }
   }
 }

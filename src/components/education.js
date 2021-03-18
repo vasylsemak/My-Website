@@ -1,19 +1,11 @@
-import React, { useContext} from 'react';
+import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
+import { education } from './data'
 import 'react-vertical-timeline-component/style.min.css';
-import {education} from './data'
-import {educationRU} from './data-ru'
-import {LanguageContext}  from '../pages/index'
 import './education.scss';
 
 
 const Education = () => {
-
-	const {state} = useContext(LanguageContext)
-
-	const language = state.language 
-
-	const eduInfo = language === 'english' ? education : educationRU
 
 	return (
 		<div  id='education'>
@@ -22,7 +14,7 @@ const Education = () => {
 			</div>
 
 			<VerticalTimeline className='timeline-container'>
-				{eduInfo.map(el => (
+				{education.map(el => (
 				<VerticalTimelineElement key={el.id}
 					className='vertical-timeline-element--work'
 					contentStyle={styles['card']}

@@ -7,12 +7,13 @@ $links-color: rgb(230, 230, 233);
   z-index: 100;
   width: 100%;
   top: 0;
-  height: 70px;
+  height: 75px;
   background: linear-gradient(
     to bottom,
-    rgb(46, 56, 45) 0%,
-    $nav-background-color 100%
+    rgba(9, 10, 6, 0.97) 0%,
+    rgb(73, 90, 99) 100%
   );
+
   #nav-left {
     float: left;
     display: flex;
@@ -22,18 +23,15 @@ $links-color: rgb(230, 230, 233);
       display: flex;
       align-items: center;
       margin: 0em 0em 0em 2.5em;
+
       #burger {
         display: none;
       }
 
       #logo {
-        background: linear-gradient(
-          to left,
-          #cecece 0%,
-          rgba(163, 195, 233, 0.2) 50%,
-          #666683 100%
-        );
+        background: linear-gradient(to left, #6b6888, #02001d, #6b6888);
         background-color: #fdfdfd;
+        text-shadow: 3px 2px 3px #fae387;
         text-align: center;
         font-size: 2.5rem;
         font-family: serif;
@@ -46,8 +44,23 @@ $links-color: rgb(230, 230, 233);
         color: #f0ae2c;
         cursor: pointer;
       }
+
+      #logo:hover {
+        width: 72px;
+        font-size: 2.8rem;
+        border: solid 4px #fde170;
+        color: #eeba53;
+        background: linear-gradient(
+          to left,
+          #02001d,
+          #6b6888,
+          #6b6888,
+          #02001d
+        );
+      }
     }
   }
+
   #nav-links-mobile,
   #nav-links {
     display: flex;
@@ -67,6 +80,7 @@ $links-color: rgb(230, 230, 233);
       border: transparent;
     }
     button:hover {
+      font-size: 1.39em;
       color: rgb(133, 163, 157);
       cursor: pointer;
     }
@@ -188,7 +202,6 @@ $links-color: rgb(230, 230, 233);
               width: 100%;
               height: 2.5px;
               background-color: rgb(250, 237, 237);
-
               border-radius: 20px;
               transition: all 0.4s ease-in-out;
             }
@@ -224,6 +237,15 @@ $links-color: rgb(230, 230, 233);
           border: transparent;
           box-shadow: none;
           margin: 0 0px 10px 0;
+        }
+        #logo:hover {
+          color: rgb(71, 70, 70);
+          text-shadow: 2px 1px 2px rgb(192, 185, 185);
+          font-size: 50px;
+          padding: 0;
+          background: none;
+          border: transparent;
+          box-shadow: none;
         }
       }
     }
