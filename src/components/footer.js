@@ -6,7 +6,7 @@ import './footer.scss';
 
 const Footer = () => (
 	<footer className='footer-links' id='footer'>
-		<a href='mailto: vasylsmk1401@gmail.com'>
+		<a href='mailto: vasylsmk1401@gmail.com' target='_blank' rel="noreferrer">
 			<FontAwesomeIcon icon={faEnvelope} />
 		</a>
 		<a href='https://www.linkedin.com/in/vasylsemak/' target='_blank' rel='noreferrer'>

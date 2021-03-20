@@ -5,7 +5,7 @@ import { hobbies } from './data.js'
 import './hobbies.scss'
 
 const Hobby = () => {
-  const [readBttn, setReadBttn] = React.useState(true);
+  const [ readBttn, setReadBttn ] = React.useState(true);
 
   function toggleBttn() {
     if(!readBttn) scrollTo('#hobby')

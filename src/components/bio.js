@@ -12,9 +12,9 @@ const Bio = () => {
     setReadBttn(!readBttn)
   }
 
-  const images = [`a-default-site-image.jpeg`, `sand.jpeg`, `ocean.jpeg`, `oscar.jpeg`, `europe.jpeg`]
-  const imgInfo = [`Bukovel, Ukraine`, `Cape Cod, MA`, 'Whales watching, Cape Cod, NY', 'Soho, NY', `Europe`]
-  const bioInfo = ['Biography', myStory, 'read more...', '...read less']
+  const images = [ `a-default-site-image.jpeg`, `sand.jpeg`, `ocean.jpeg`, `oscar.jpeg`, `europe.jpeg` ]
+  const imgInfo = [ `Bukovel, Ukraine`, `Cape Cod, MA`, 'Whales watching, Cape Cod, NY', 'Soho, NY', `Europe` ]
+  const bioInfo = [ 'Biography', myStory, 'read more...', '...read less' ]
 
   return (
     <div id='bio'>

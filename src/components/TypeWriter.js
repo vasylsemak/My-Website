@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 
 const TypeWriter = ({ texts, speed, endSpeed }) => {
-    const [text, setText ] = useState('')
+    const [ text, setText ] = useState('')
 
     useEffect(() => {
         let i = 0;

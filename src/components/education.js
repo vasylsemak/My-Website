@@ -3,13 +3,12 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 import { education } from './data'
 import 'react-vertical-timeline-component/style.min.css'
 import './education.scss'
-
-
+const hat = require('../images/education.jpg')
 
 const Education = () => (
 	<div  id='education'>
 		<div className='paragraph-title-edu'>
-			<img src={require('../images/education.jpg')} className='paragraph-title-edu' alt=''/>
+			<img src={hat} className='paragraph-title-edu' alt=''/>
 		</div>
 
 		<VerticalTimeline className='timeline-container'>
