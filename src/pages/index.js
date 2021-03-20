@@ -9,24 +9,16 @@ import Hobby from '../components/hobbies'
 import Footer from "../components/footer"
 import "./styles.scss"
 
-
-export const Context = React.createContext()
-
-const IndexPage = () => {
-
-  return (
-    <Context.Provider>
-      <Layout>
-        <SEO title='Vasyl Semak'/>
-        <Home/>
-        <Bio/>
-        <Projects/>
-        <Education />
-        <Hobby />
-        <Footer/>
-      </Layout>
-    </Context.Provider>
-  )
-}
+const IndexPage = () => (
+  <Layout>
+    <SEO title='Vasyl Semak'/>
+    <Home/>
+    <Bio/>
+    <Projects/>
+    <Education />
+    <Hobby />
+    <Footer/>
+  </Layout>
+)
 
 export default IndexPage

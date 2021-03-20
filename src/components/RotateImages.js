@@ -40,7 +40,7 @@ const RotateImages = ({ images, imgInfo, anime }) => {
 
             t = setTimeout(() => rotateImages(), speed)
             return () => clearTimeout(t)
-          }
+        }
 
         rotateImages()
         return () => clearTimeout(t)

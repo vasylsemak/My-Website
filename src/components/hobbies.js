@@ -1,8 +1,7 @@
 import * as React from 'react'
-import scrollTo from 'gatsby-plugin-smoothscroll';
+import scrollTo from 'gatsby-plugin-smoothscroll'
 import RotateImages from './RotateImages'
 import { hobbies } from './data.js'
-
 import './hobbies.scss'
 
 const Hobby = () => {

@@ -33,8 +33,7 @@ export default function Header({ className }) {
       <div id={burger ? 'nav-links' : 'nav-links-mobile'}>
         {
           links.map((el, i) => {
-            const classname = idNames[i].link === '#' + className
-              ? 'link-offsetTop' : 'nothing'
+            const classname = idNames[i].link === '#' + className ? 'link-offsetTop' : 'nothing'
 
             return <button key={idNames[i].id} type='button'
               className={classname} onClick={() => onClick(idNames[i].link)}
