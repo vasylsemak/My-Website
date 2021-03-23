@@ -4,7 +4,6 @@
   </a>
 </p>
 <h1 align="center">
- www.vasylsemak.dev
 </h1>
 
 # About
