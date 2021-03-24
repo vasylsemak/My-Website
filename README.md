@@ -7,16 +7,7 @@
   https://vasylsemak.netlify.app/
 </h1>
 
-# About
-
 ## My personal website/portfolio.
-
-**I built it using the following technologies:**
-
-- [Gatsby/React](https://www.gatsbyjs.com/docs/)
-- [SASS](https://sass-lang.com/)
-
-<!-- I implemented **_custom modules_** **RotateImages** and **TypeWriter** for animations, and **Burger** (dropdown menu) for **_mobile version_** to avoid external dependencies. -->
 
 # Author
 

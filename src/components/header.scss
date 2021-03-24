@@ -70,6 +70,7 @@ $links-color: rgb(230, 230, 233);
     align-items: flex-end;
     float: right;
     margin: -0.5em 3em;
+
     button {
       color: $links-color;
       font-family: FreeMono, monospace;
@@ -79,11 +80,7 @@ $links-color: rgb(230, 230, 233);
       background: transparent;
       border: transparent;
     }
-    button:hover {
-      font-size: 1.39em;
-      color: rgb(133, 163, 157);
-      cursor: pointer;
-    }
+
     .link-offsetTop {
       background-color: rgb(198, 212, 192, 0.8);
       color: rgb(90, 81, 81);
@@ -239,6 +236,7 @@ $links-color: rgb(230, 230, 233);
           margin: 0 0px 10px 0;
         }
         #logo:hover {
+          vertical-align: text-bottom;
           color: rgb(71, 70, 70);
           text-shadow: 2px 1px 2px rgb(192, 185, 185);
           font-size: 50px;
@@ -246,6 +244,7 @@ $links-color: rgb(230, 230, 233);
           background: none;
           border: transparent;
           box-shadow: none;
+          margin: 0 0px 10px 0;
         }
       }
     }
