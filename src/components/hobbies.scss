@@ -24,6 +24,7 @@ $title-color: #f0ae2c;
       margin: 5px 10px;
     }
   }
+
   #hobby-container {
     background-color: rgb(254, 249, 249);
     border-radius: 20px;
@@ -31,11 +32,9 @@ $title-color: #f0ae2c;
     max-width: 1170px;
     #fade-img {
       float: left;
-      display: flex;
-      flex-direction: column;
       align-content: space-between;
-      height: 370px;
-      width: 310px;
+      height: 335px;
+      width: 330px;
       overflow: hidden;
       margin: 0px 45px 0px 0;
       .fading,
@@ -92,6 +91,7 @@ $title-color: #f0ae2c;
         font-weight: bold;
       }
     }
+
     button {
       outline: none;
       border: transparent;
@@ -111,20 +111,18 @@ $title-color: #f0ae2c;
     width: 95%;
 
     #hobby-container {
-      display: flex;
-      flex-direction: column;
       align-items: center;
       padding: 30px;
       #fade-img {
-        height: 300px;
+        height: 305px;
         width: 300px;
         margin: 0px 0px 20px 0px;
 
         .fading,
         .fade-in,
         .fade-out {
-          height: 300px;
-          width: 250px;
+          height: 270px;
+          width: 270px;
         }
       }
       #hobby-story {

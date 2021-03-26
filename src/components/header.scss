@@ -1,5 +1,16 @@
-$nav-background-color: rgba(105, 107, 107, 0.97);
 $links-color: rgb(230, 230, 233);
+
+@mixin logo780px() {
+  vertical-align: text-bottom;
+  color: rgb(250, 237, 237);
+  text-shadow: 2px 1px 2px rgb(192, 185, 185);
+  font-size: 50px;
+  padding: 0;
+  background: none;
+  border: transparent;
+  box-shadow: none;
+  margin: 0 0px 10px 0;
+}
 
 #nav-bar {
   overflow: hidden;
@@ -136,6 +147,7 @@ $links-color: rgb(230, 230, 233);
     }
   }
 }
+
 @media (max-width: 1050px) {
   #nav-bar {
     #nav-links {
@@ -224,25 +236,10 @@ $links-color: rgb(230, 230, 233);
           }
         }
         #logo {
-          vertical-align: text-bottom;
-          color: rgb(250, 237, 237);
-          text-shadow: 2px 1px 2px rgb(192, 185, 185);
-          font-size: 50px;
-          padding: 0;
-          background: none;
-          border: transparent;
-          box-shadow: none;
-          margin: 0 0px 10px 0;
+          @include logo780px();
           &:hover {
-            vertical-align: text-bottom;
+            @include logo780px();
             color: rgb(71, 70, 70);
-            text-shadow: 2px 1px 2px rgb(192, 185, 185);
-            font-size: 50px;
-            padding: 0;
-            background: none;
-            border: transparent;
-            box-shadow: none;
-            margin: 0 0px 10px 0;
           }
         }
       }
