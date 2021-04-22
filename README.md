@@ -11,10 +11,10 @@
 
 **Built with using the following technologies:**
 
-- [Node.js]
-- [React]
-- [Gatsby]
-- [SASS]
+- Node.js
+- React
+- Gatsby
+- SASS
 
 <p align="center">
   <img alt="photo-1" src="src/images/photo-1.png" width="500" />
