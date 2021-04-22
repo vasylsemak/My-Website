@@ -4,7 +4,7 @@
   </a>
 </p>
 <h3 align="center">
-  vasylsemak.netlify.app
+  https://vasylsemak.netlify.app/
 </h3>
 
 ## My personal web application/portfolio.
