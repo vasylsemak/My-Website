@@ -16,7 +16,14 @@
 - Gatsby
 - SASS
 
-<img alt="p1" src="src/images/photo-1.png" />
+<p>
+  <img alt="p1" src="src/images/photo-1.png" width="500" />
+  <img alt="p2" src="src/images/photo-2.png" width="500" />
+</p>
+<p>
+  <img alt="p3" src="src/images/photo-3.png" width="500" />
+  <img alt="p4" src="src/images/photo-4.png" width="500" />
+</p>
 
 ## Author
 
