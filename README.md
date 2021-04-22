@@ -4,7 +4,7 @@
   </a>
 </p>
 <h3 align="center">
-  https://vasylsemak.netlify.app/
+  vasylsemak.netlify.app
 </h3>
 
 ## My personal web application/portfolio.
@@ -15,6 +15,8 @@
 - React
 - Gatsby
 - SASS
+
+
 
   <img alt="p1" src="src/images/photo-1.png" width="500" />
   <img alt="p2" src="src/images/photo-2.png" width="500" />
