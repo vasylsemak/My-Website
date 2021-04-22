@@ -16,10 +16,7 @@
 - Gatsby
 - SASS
 
-![](src/images/photo-1.png)
-![](src/images/photo-2.png)
-![](src/images/photo-3.png)
-![](src/images/photo-4.png)
+<img alt="p1" src="src/images/photo-1.png" />
 
 ## Author
 
