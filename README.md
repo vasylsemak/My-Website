@@ -3,9 +3,9 @@
     <img alt="im" src="src/images/logo-icon.png" width="200" />
   </a>
 </p>
-<h1 align="center">
+<h3 align="center">
   https://vasylsemak.netlify.app/
-</h1>
+</h3>
 
 ## My personal website/portfolio.
 
