@@ -17,11 +17,11 @@ html,
   width: 100%;
   background: linear-gradient(
     to right,
-    #6b6888,
-    #02001d,
-    #02001d,
-    #02001d,
-    #6b6888
+    #c8c3bf,
+    #fffef7,
+    #fffef7,
+    #fffef7,
+    #c8c3bf
   );
 }
 
@@ -59,16 +59,6 @@ html,
     .svg-inline--fa {
       height: 0.5em;
     }
-  }
-
-  .scroll-to-top-bttn:focus {
-    outline: none;
-  }
-
-  .scroll-to-top-bttn:hover {
-    background-color: rgba(5, 5, 5, 0.3);
-    color: rgb(102, 102, 158, 0.7);
-    cursor: pointer;
   }
 
   img {
