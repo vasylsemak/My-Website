@@ -89,6 +89,9 @@ $links-color: rgb(230, 230, 233);
       padding: 1px 4px;
       background: transparent;
       border: transparent;
+      &:hover {
+        font-size: 1.5em;
+      }
     }
 
     .link-offsetTop {
