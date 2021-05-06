@@ -18,34 +18,26 @@
   flex-direction: column;
   align-items: center;
   background-size: cover;
+  background-image: url('../images/home-page.jpg');
 
-  background-image: linear-gradient(
-      to right,
-      #6b6888,
-      rgba(19, 16, 16, 0),
-      rgba(19, 16, 16, 0),
-      rgba(19, 16, 16, 0),
-      #6b6888
-    ),
-    url('../images/home-page.jpg');
-
-  font-weight: 100;
+  font-weight: 200;
   font-family: Andale Mono, monospace;
   letter-spacing: 0.3px;
   word-spacing: 1px;
-  color: rgb(226, 228, 222);
+  color: #b8a28d;
   text-align: center;
   h1 {
-    margin: 120px 0 25px 0;
-    font-weight: bold;
-    font-size: 3rem;
+    margin: 16rem 0 25px 0;
+    font-weight: 900;
+    font-size: 5rem;
   }
   h6 {
     margin: 20px 0 35px 0;
     font-size: 0.75em;
   }
   .type-writer {
-    font-size: 1.3em;
+    margin-top: 2rem;
+    font-size: 1.8em;
   }
   .type-writer::after {
     content: '|';
@@ -56,23 +48,20 @@
   }
 }
 
+// MEDIA
 @media (max-width: 1025px) {
   #home {
     font-size: 1.2em;
   }
-  .home {
-    h1 {
-      margin-top: 200px;
-    }
-  }
 }
+
 @media (max-width: 660px) {
   #home {
     font-size: 0.85em;
   }
   .home {
     h1 {
-      margin-top: 30%;
+      font-size: 3rem;
     }
     h6 {
       margin: 1% 5% 10% 5%;
@@ -89,8 +78,9 @@
   }
   .home {
     h1 {
-      margin: 100px 0 10% 0;
-      font-weight: 500;
+      font-size: 1.6rem;
+      margin: 16rem 0 10% 0;
+      font-weight: 900;
     }
     h3 {
       margin: 0 5% 3%;

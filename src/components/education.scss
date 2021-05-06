@@ -1,5 +1,9 @@
 #education {
+  border: 5px solid #b8a28d;
+  border-radius: 20px;
+  margin: 10% 10%;
   padding: 8em 0 0 0;
+  background-color: #b8a28d;
 
   .paragraph-title-edu {
     margin: 0 0 3em 0;
@@ -9,7 +13,6 @@
     width: 100%;
 
     img {
-      color: red;
       height: 120px;
       width: 180px;
     }
@@ -17,10 +20,6 @@
 
   .timeline-container {
     width: 80%;
-
-    .vertical-timeline-element-date {
-      color: white;
-    }
 
     h3,
     h4,
