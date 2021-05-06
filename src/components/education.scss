@@ -52,6 +52,18 @@
   }
 }
 
+@media (max-width: 1169px) {
+  #education {
+    .timeline-container {
+      width: 80%;
+      .vertical-timeline-element-date {
+        color: rgb(5, 0, 0);
+        font-weight: 400;
+      }
+    }
+  }
+}
+
 @media (max-width: 660px) {
   #education {
     .timeline-container {
