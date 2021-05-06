@@ -34,7 +34,7 @@ export default Education
 
 const styles = {
 	'card': {
-		background: 'rgb(247, 240, 240)',
+		background: '#ffffff',
 		fontFamily: 'monospace',
 		borderRadius: '18px'
 	},

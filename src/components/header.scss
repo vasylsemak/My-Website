@@ -87,7 +87,7 @@ $links-color: #657426;
 
     .link-offsetTop {
       background-color: #f3f3f1;
-      border-radius: 2px;
+      border-radius: 5px;
       color: #91b029;
       font-size: 1.6rem;
       transition: 0.7s ease-in-out;
@@ -265,6 +265,9 @@ $links-color: #657426;
         text-align: start;
         margin: 25px 0px 0;
         border-bottom: solid 1.5px #ffffff;
+        &:hover {
+          color: #ffffff;
+        }
       }
     }
     #nav-links {
