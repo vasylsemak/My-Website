@@ -12,7 +12,7 @@
   .project-container {
     border-radius: 20px;
     padding: 0 45px;
-    background-color: rgb(254, 249, 249);
+    background-color: #ffffff;
     max-width: 1170px;
 
     #project-hiden,
@@ -27,13 +27,12 @@
       #image-eBudget,
       #image-daily {
         float: left;
-        border-radius: 20px;
         background-size: cover;
         background-repeat: no-repeat;
         height: 150px;
         width: 150px;
         margin: 45px 45px 45px 0;
-        box-shadow: 5px 5px 3px rgb(206, 205, 205);
+        box-shadow: 8px 8px 5px rgb(206, 205, 205);
       }
       #image-chugMugs {
         background-image: url('../images/chugMugs.jpeg');
@@ -52,9 +51,14 @@
     }
     .project-details {
       padding: 45px 0;
+
       .project-links a {
         margin: 0px 10px;
         font-size: 2em;
+
+        .project-links-icon {
+          color: #153b44;
+        }
       }
       .project-description,
       #project-tools {
