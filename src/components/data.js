@@ -38,7 +38,7 @@ export const projects = [
         },
         tools: "['Express', 'PostgreSQL', 'React', 'Redux', 'React-Redux', 'ChartJS', 'Plaid API']",
         gitHub: 'https://github.com/vasylsemak/eBudget',
-        youtube: 'https://www.youtube.com/watch?v=nbWok8GLaos&list=PLx0iOsdUOUmkqg_8ixMky0s59-C2RJnDB&index=15',
+        youtube: 'https://youtu.be/nbWok8GLaos?list=PLx0iOsdUOUmkqg_8ixMky0s59-C2RJnDB&t=190',
         class: "eBudget",
     },
     {
