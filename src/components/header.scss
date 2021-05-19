@@ -1,4 +1,5 @@
 $links-color: #657426;
+$light-green: #91b029;
 
 @mixin logo780px() {
   vertical-align: text-bottom;
@@ -80,7 +81,7 @@ $links-color: #657426;
       border: transparent;
       &:hover {
         font-size: 1.6rem;
-        color: #91b029;
+        color: $light-green;
         transition: 0.3s ease-in-out;
       }
     }
@@ -88,7 +89,7 @@ $links-color: #657426;
     .link-offsetTop {
       background-color: #f3f3f1;
       border-radius: 5px;
-      color: #91b029;
+      color: $light-green;
       font-size: 1.6rem;
       transition: 0.7s ease-in-out;
     }
@@ -177,14 +178,14 @@ $links-color: #657426;
         transform: skew(-10deg);
         height: 100%;
         width: 10%;
-        border-right: 10px solid #657426;
-        background-color: #91b029;
+        border-right: 10px solid $links-color;
+        background-color: $light-green;
         margin-left: -20%;
       }
       #nav-logo {
         float: left;
         width: 95%;
-        background-color: #91b029;
+        background-color: $light-green;
         margin: 0;
 
         #burger-container {
