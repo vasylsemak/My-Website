@@ -1,6 +1,7 @@
 import React from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faYoutube  } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faLink } from '@fortawesome/free-solid-svg-icons'
 import { projects } from './data'
 import './projects.scss'
 
@@ -19,9 +20,14 @@ const Projects = () => (
                 </a>
                 {
                   (el.name === "eBudget") ? (
-                    <a href={el.youtube} target="_blank" rel="noreferrer">
-                      <FontAwesomeIcon icon={faYoutube} />
-                    </a>
+                    <>
+                      <a href={el.youtube} target="_blank" rel="noreferrer">
+                        <FontAwesomeIcon icon={faYoutube} />
+                      </a>
+                      <a href={el.link} target="_blank" rel="noreferrer">
+                        <FontAwesomeIcon icon={faLink} />
+                      </a>
+                    </>
                   ) : ('')
                 }
               </div>
