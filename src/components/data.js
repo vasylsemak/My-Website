@@ -95,8 +95,16 @@ export const education = [
         id: 3,
         name: "Ternopil National Economic University",
         address: "Ternopil, Ukraine",
-        date: "September 2002 - June 2007",
-        degree: "Master in Finance",
+        date: "September 2002 - July 2006",
+        degree: "Bachelor of Finance / Banking",
+        class: "image-tneu"
+    },
+    {
+        id: 4,
+        name: "Ternopil National Economic University",
+        address: "Ternopil, Ukraine",
+        date: "September 2006 - June 2007",
+        degree: "Master of Banking Business",
         class: "image-tneu"
     }
 ]
